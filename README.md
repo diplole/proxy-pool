@@ -1,18 +1,26 @@
-# 免费代理池 - Free Proxy Pool
+# 雷霆打代理池 - 免费代理订阅
 
-每日自动更新的 Clash/Mihomo 免费代理订阅。
+免费 Clash/Mihomo 代理节点订阅。
 
-## 使用方式
+## 订阅链接
 
-在 Clash Verge / Clash Meta / Clash for Android 中导入以下订阅链接：
-
+### 1. 综合代理池（1347+ 节点）
 ```
 https://raw.githubusercontent.com/diplole/proxy-pool/main/clash.yaml
 ```
+涵盖 Shadowsocks 等多协议节点。
 
-## 特点
+### 2. 日本节点专线（7 节点）
+```
+https://raw.githubusercontent.com/diplole/proxy-pool/main/ikuku-free.yaml
+```
+日本 VMess 节点，稳定可用，无流量限制，无到期限制。
 
-- 1866+ 节点
-- 支持协议：VLESS、VMess、Trojan、Shadowsocks、Hysteria2
-- 含自动选择（url-test 测速，自动切最优节点）
-- 持续更新
+## 使用方式
+
+在 Clash Verge / Clash Meta / Clash for Android 中复制订阅链接导入即可。
+
+## 说明
+
+- 节点全部来源于互联网，仅作学习交流使用
+- 免费节点随时可能失效，请自行测试
