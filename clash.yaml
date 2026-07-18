@@ -4120,6 +4120,13 @@ proxies:
 - {cipher: auto, host: family.bucket.x9.kfc-520.com, name: "🇹🇷[openproxylist.com] vmess-TR", network: none, path: /, port: 10048, server: family.bucket.x9.kfc-520.com, type: vmess, uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc, alterId: 0}
 - {name: "🇪🇸[openproxylist.com]", password: 2eutknankxtbgkwcajzt, port: 52794, server: 193.148.19.213, skip-cert-verify: true, sni: 193.148.19.213, tls: true, type: trojan}
 - {name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, network: tcp, password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV, port: 443, server: 130.94.107.171, sni: www.logger-guard.click, tls: true, type: trojan}
+- {name: "🇯🇵 免费-日本1-Ver.7", server: 0eby1on-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true, network: tcp}
+- {name: "🇯🇵 免费-日本2-Ver.8", server: 48l5ti6-g05.jp02-e3-vm0.entry.fr0528.art, port: 11777, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true, network: tcp}
+- {name: "🇯🇵 免费-日本3-Ver.7", server: e892hw6-g05.jp03-j7-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true, network: tcp}
+- {name: "🇯🇵 免费-日本4-Ver.8", server: 48b28ia-g05.jp04-1d-vm0.entry.fr0528.art, port: 448, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true, network: tcp}
+- {name: "🇯🇵 免费-日本5-Ver.9", server: emlytwn-g05.jp05-h6-vm0.entry.fr0528.art, port: 46486, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true, network: tcp}
+- {name: "🇯🇵 免费-日本6-Ver.8", server: 48byhfa-g05.jp06-jz-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true, network: tcp}
+- {name: "🇯🇵 免费-日本7-Ver.2", server: pe921f6-g05.jp07-sh-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: fff692df-b5a6-360f-9f3b-fcc55c149405, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true, network: tcp}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -8242,6 +8249,13 @@ proxy-groups:
       - 🇹🇷[openproxylist.com] vmess-TR
       - 🇪🇸[openproxylist.com]
       - 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇯🇵 免费-日本1-Ver.7
+      - 🇯🇵 免费-日本2-Ver.8
+      - 🇯🇵 免费-日本3-Ver.7
+      - 🇯🇵 免费-日本4-Ver.8
+      - 🇯🇵 免费-日本5-Ver.9
+      - 🇯🇵 免费-日本6-Ver.8
+      - 🇯🇵 免费-日本7-Ver.2
       - DIRECT
 
   - name: ♻️ 自动选择
@@ -12366,6 +12380,13 @@ proxy-groups:
       - 🇹🇷[openproxylist.com] vmess-TR
       - 🇪🇸[openproxylist.com]
       - 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇯🇵 免费-日本1-Ver.7
+      - 🇯🇵 免费-日本2-Ver.8
+      - 🇯🇵 免费-日本3-Ver.7
+      - 🇯🇵 免费-日本4-Ver.8
+      - 🇯🇵 免费-日本5-Ver.9
+      - 🇯🇵 免费-日本6-Ver.8
+      - 🇯🇵 免费-日本7-Ver.2
 
 rules:
   - MATCH,🚀 节点选择
