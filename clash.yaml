@@ -57121,7 +57121,8 @@ proxies:
   tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- alpn: http/1.1
+- alpn:
+  - http/1.1
   fingerprint: chrome
   host: moz.boaza.dpdns.org
   name: 未知 VLESS-483 | free-nodes-2
@@ -57549,7 +57550,8 @@ proxies:
   server: 185.231.101.88
   type: vless
   uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
-- alpn: http/1.1
+- alpn:
+  - http/1.1
   fingerprint: chrome
   host: fn-2.ariyuz.org
   name: 🇫🇮[openproxylist.com]
@@ -57681,7 +57683,8 @@ proxies:
   tls: true
   type: vless
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- alpn: http/1.1
+- alpn:
+  - http/1.1
   cipher: none
   fingerprint: qq
   flow: xtls-rprx-vision
