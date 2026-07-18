@@ -1,92 +1,89 @@
-port: 7890
-socks-port: 7891
-mode: Rule
 log-level: info
-
+mode: Rule
+port: 7890
 proxies:
--   name: 🇯🇵 免费-日本1-Ver.7
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本1-Ver.7
+  port: 21585
   server: etl21wn-g05.jp01-nn-vm0.entry.fr0528.art
-  port: 21585
-  type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
-  tls: true
   skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
--   name: 🇯🇵 免费-日本2-Ver.8
-  server: eer28f2-g05.jp02-e3-vm0.entry.fr0528.art
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本2-Ver.8
   port: 11777
-  type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
-  tls: false
+  server: eer28f2-g05.jp02-e3-vm0.entry.fr0528.art
   skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
--   name: 🇯🇵 免费-日本3-Ver.7
-  server: 4tr51f6-g05.jp03-j7-vm0.entry.fr0528.art
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本3-Ver.7
   port: 21585
-  type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
-  tls: true
+  server: 4tr51f6-g05.jp03-j7-vm0.entry.fr0528.art
   skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
--   name: 🇯🇵 免费-日本4-Ver.8
-  server: eer2hfn-g05.jp04-1d-vm0.entry.fr0528.art
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本4-Ver.8
   port: 448
-  type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
-  tls: false
+  server: eer2hfn-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
--   name: 🇯🇵 免费-日本5-Ver.9
-  server: 4eby1f2-g05.jp05-h6-vm0.entry.fr0528.art
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本5-Ver.9
   port: 46486
-  type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
-  tls: false
+  server: 4eby1f2-g05.jp05-h6-vm0.entry.fr0528.art
   skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
--   name: 🇯🇵 免费-日本6-Ver.8
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本6-Ver.8
+  port: 28787
   server: 08ry1f2-g05.jp06-jz-vm0.entry.fr0528.art
-  port: 28787
-  type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
+  skip-cert-verify: false
   tls: true
-  skip-cert-verify: false
-  udp: true
--   name: 🇯🇵 免费-日本7-Ver.2
-  server: eer51ia-g05.jp07-sh-vm0.entry.fr0528.art
-  port: 28787
   type: vmess
-  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
   udp: true
-
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 免费-日本7-Ver.2
+  port: 28787
+  server: eer51ia-g05.jp07-sh-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fff692df-b5a6-360f-9f3b-fcc55c149405
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    proxies:
-      - 🇯🇵 免费-日本1-Ver.7
-      - 🇯🇵 免费-日本2-Ver.8
-      - 🇯🇵 免费-日本3-Ver.7
-      - 🇯🇵 免费-日本4-Ver.8
-      - 🇯🇵 免费-日本5-Ver.9
-      - 🇯🇵 免费-日本6-Ver.8
-      - 🇯🇵 免费-日本7-Ver.2
-      - DIRECT
-
+- name: 🚀 节点选择
+  proxies:
+  - 🇯🇵 免费-日本1-Ver.7
+  - 🇯🇵 免费-日本2-Ver.8
+  - 🇯🇵 免费-日本3-Ver.7
+  - 🇯🇵 免费-日本4-Ver.8
+  - 🇯🇵 免费-日本5-Ver.9
+  - 🇯🇵 免费-日本6-Ver.8
+  - 🇯🇵 免费-日本7-Ver.2
+  - DIRECT
+  type: select
 rules:
-  - MATCH,🚀 节点选择
+- MATCH,🚀 节点选择
+socks-port: 7891
