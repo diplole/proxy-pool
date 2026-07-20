@@ -1,0 +1,2501 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+unified-delay: true
+
+proxies:
+  - name: '[Japan] 日本2 [超高速]'
+    type: anytls
+    server: 0717jpjp3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: packages.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡1 [超高速]'
+    type: anytls
+    server: 0717sg.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cdn.debian13.com
+    udp: true
+  - name: '[Japan] 日本1 [超高速]'
+    type: anytls
+    server: 0717jpjp2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: deb.debian13.com
+    udp: true
+  - name: '[Korea] 韩国 [超高速]'
+    type: anytls
+    server: 0717kr.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: security.debian13.com
+    udp: true
+  - name: '[TW] 台湾 [超高速]'
+    type: anytls
+    server: 0717tw.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: mirror.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港 [超高速]'
+    type: anytls
+    server: 0717hk.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: archive.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡2-极速 [推荐]'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: buzz.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡3-极速 [推荐]'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: rex.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡4-极速 [推荐]'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: hamm.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡5-极速 [推荐]'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: slink.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡6-极速 [推荐]'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: potato.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡7-极速 [推荐]'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: woody.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡8-极速 [推荐]'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: sarge.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡9-极速 [推荐]'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: etch.debian13.com
+    udp: true
+  - name: '[Singapore] 新加坡10-极速 [推荐]'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: lenny.debian13.com
+    udp: true
+  - name: '[Japan] 日本1-极速'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: squeeze.debian13.com
+    udp: true
+  - name: '[Japan] 日本2-极速'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: wheezy.debian13.com
+    udp: true
+  - name: '[Japan] 日本3-极速'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: forky.debian13.com
+    udp: true
+  - name: '[Japan] 日本4-极速'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: duke.debian13.com
+    udp: true
+  - name: '[Japan] 日本5-极速'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dselect.debian13.com
+    udp: true
+  - name: '[United States] 美国1-极速'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: tasksel.debian13.com
+    udp: true
+  - name: '[United States] 美国2-极速'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: debconf.debian13.com
+    udp: true
+  - name: '[United States] 美国3-极速'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: debootstrap.debian13.com
+    udp: true
+  - name: '[United States] 美国4-极速'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cdebootstrap.debian13.com
+    udp: true
+  - name: '[United States] 美国5-极速'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: multistrap.debian13.com
+    udp: true
+  - name: '[United States] 美国6-极速'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: sbuild.debian13.com
+    udp: true
+  - name: '[United States] 美国7-极速'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: pbuilder.debian13.com
+    udp: true
+  - name: '[TW] 台湾1-极速'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cowbuilder.debian13.com
+    udp: true
+  - name: '[TW] 台湾2-极速'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: schroot.debian13.com
+    udp: true
+  - name: '[TW] 台湾3-极速'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: quilt.debian13.com
+    udp: true
+  - name: '[TW] 台湾4-极速'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: devscripts.debian13.com
+    udp: true
+  - name: '[TW] 台湾5-极速'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: debhelper.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港1-极速'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: meson.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港2-极速'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: debuild.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港3-极速'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dput.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港4-极速'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dupload.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港5-极速'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dcut.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连1专线'
+    type: anytls
+    server: 111.68.14.158
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dists.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连2专线'
+    type: anytls
+    server: 111.68.15.187
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: backports.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连3专线'
+    type: anytls
+    server: 111.68.15.195
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: updates.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连4专线'
+    type: anytls
+    server: 111.68.15.203
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: snapshot.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连5专线'
+    type: anytls
+    server: 111.68.15.251
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: apt.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连6专线'
+    type: anytls
+    server: 175.41.22.203
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: ftp.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连7专线'
+    type: anytls
+    server: 175.41.22.188
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: pool.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连8专线'
+    type: anytls
+    server: 175.41.22.43
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: release.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连9专线'
+    type: anytls
+    server: 111.68.15.219
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cdimage.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连10'
+    type: anytls
+    server: 147.79.20.63
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: contrib.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连11'
+    type: anytls
+    server: 140.235.37.245
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: ports.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连12'
+    type: anytls
+    server: 147.79.20.16
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: firmware.debian13.com
+    udp: true
+  - name: '[Japan] 日本直连13'
+    type: anytls
+    server: 147.79.20.150
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: incoming.debian13.com
+    udp: true
+  - name: '[Japan] 日本中转1'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23002
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 4rP4aWmPo-JJZJQI6jRMSNBSpeucKKTNPHfzUBkTzXk
+      short-id: a03d19
+  - name: '[Japan] 日本中转2'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23103
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SwMQjrE24dOwmf4WSnGU3dGlrIlUmaa8nhgJC1ODZxY
+      short-id: 8f0601
+  - name: '[Japan] 日本中转3'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23104
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: XBlKXLq2AI2onL3Ia6mW90wpBc4tTq4Hf_DPS-bPhCc
+      short-id: 90f87f
+  - name: '[Japan] 日本中转4'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23003
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: NpgIqZ_6wGh7LzIvTa6p0IN3frooVktjS79u8zGfqy8
+      short-id: db2634
+  - name: '[Japan] 日本中转5'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23105
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: JG9xeOOWni1uAirMFeZjlobOeASbQX6It2G_T59LXwE
+      short-id: bca299
+  - name: '[United States] 美国直连1专线'
+    type: anytls
+    server: 182.16.69.35
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: download.debian13.com
+    udp: true
+  - name: '[United States] 美国直连2专线'
+    type: anytls
+    server: 182.16.61.27
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: repo.debian13.com
+    udp: true
+  - name: '[United States] 美国直连3'
+    type: anytls
+    server: 154.23.172.16
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: sources.debian13.com
+    udp: true
+  - name: '[United States] 美国直连4'
+    type: anytls
+    server: 155.117.18.226
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: keyring.debian13.com
+    udp: true
+  - name: '[United States] 美国直连5'
+    type: anytls
+    server: 166.0.19.97
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: changelogs.debian13.com
+    udp: true
+  - name: '[United States] 美国直连6'
+    type: anytls
+    server: 23.172.40.93
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: metadata.debian13.com
+    udp: true
+  - name: '[United States] 美国直连7'
+    type: anytls
+    server: 154.19.241.73
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: ftp.debian13.com
+    udp: true
+  - name: '[United States] 美国直连8'
+    type: anytls
+    server: 38.49.42.44
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: backports.debian13.com
+    udp: true
+  - name: '[United States] 美国中转1'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23004
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ikddV8gOMQ8Hmr6T1AJWF85SLAiQdfbABZ_Dy_0ICAk
+      short-id: c3b9a4
+  - name: '[United States] 美国中转2'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23005
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: TqoqDpyHVOrqkC7yXs98XoaWWXr9cDhMkQqyMRZYsyQ
+      short-id: 994d907f
+  - name: '[United States] 美国中转3'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23106
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: BxRXAumHWeZYJQVITKqaRRFncGufFYwsPtShR8SWbGE
+      short-id: 70f521
+  - name: '[TW] 台湾直连1'
+    type: anytls
+    server: 151.242.189.193
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dkms.debian13.com
+    udp: true
+  - name: '[TW] 台湾直连2'
+    type: anytls
+    server: 140.235.39.60
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: initramfs.debian13.com
+    udp: true
+  - name: '[TW] 台湾直连3'
+    type: anytls
+    server: 151.242.189.178
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: grub.debian13.com
+    udp: true
+  - name: '[TW] 台湾直连4'
+    type: anytls
+    server: 140.235.39.182
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: modules.debian13.com
+    udp: true
+  - name: '[TW] 台湾直连5'
+    type: anytls
+    server: 151.242.189.42
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: headers.debian13.com
+    udp: true
+  - name: '[TW] 台湾中转1'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23000
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.speedtest.net
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Lsua0Z-skuRfm86ZUlDshQvFwtRD4Ko4JLEnnuBs5jA
+      short-id: abcd15
+  - name: '[TW] 台湾中转2'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23100
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.speedtest.net
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zCoPNLepbjDPaliyjaP9uVba6ERcGp77AK_Q3yDBvww
+      short-id: abcd16
+  - name: '[TW] 台湾中转3'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23101
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.speedtest.net
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: WpNJF9s24Q2e49UFoifwB9LdmylnwCBd5QyLIE4AAz8
+      short-id: abcd17
+  - name: '[TW] 台湾中转4'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23001
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.speedtest.net
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: rjaUXqCoxzxjSSch5zOOkk4qr3Q7ghwzXODbS7llpVE
+      short-id: abcd18
+  - name: '[TW] 台湾中转5'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23102
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.speedtest.net
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: xsjsUiLSEHn_EfkFEcHXHSKse7LVs78HHkxFYcZ27WE
+      short-id: abcd19
+  - name: '[Hong Kong] 香港直连1'
+    type: anytls
+    server: 103.219.193.193
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: proposed.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港直连2'
+    type: anytls
+    server: 209.33.161.229
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cloud.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港直连3'
+    type: anytls
+    server: 103.219.193.173
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: httpredir.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港直连4'
+    type: anytls
+    server: 209.33.166.36
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: volatile.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港直连5'
+    type: anytls
+    server: 103.219.194.129
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: mirrors.debian13.com
+    udp: true
+  - name: '[Hong Kong] 香港中转1'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23006
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: eJouXud312FXBFzXL529xg7FPgRCUCLlgacy8o53oXk
+      short-id: abcd20
+  - name: '[Hong Kong] 香港中转2'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23107
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Mywe-51zicEA-AVC9A2qXJRud5WZsn0kgXWPNvPumgg
+      short-id: abcd21
+  - name: '[Hong Kong] 香港中转3'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23108
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: dTDtqQtWgMX9YLq36jITqP45FocVgvXyY8t4HQ_iU3Y
+      short-id: abcd22
+  - name: '[Hong Kong] 香港中转4'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23007
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: It719FdiqRFCEg7jxDVmgOOWA35C_aRmJwbn8c0moh8
+      short-id: abcd23
+  - name: '[Hong Kong] 香港中转5'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23109
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: WmsovLupwyfcYHFBio2Y8RfNCVLDTV0N8leJJY8JwG4
+      short-id: abcd24
+  - name: '[Korea] 韩国1'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dgit.debian13.com
+    udp: true
+  - name: '[Korea] 韩国2'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: germinate.debian13.com
+    udp: true
+  - name: '[Korea] 韩国3'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: ucf.debian13.com
+    udp: true
+  - name: '[Korea] 韩国4'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: wajig.debian13.com
+    udp: true
+  - name: '[Korea] 韩国中转1'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23010
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: eDty6MRg63OHI_1zEhqhof2hCgd8GBWk-bKuy_kO60o
+      short-id: abcd25
+  - name: '[Korea] 韩国中转2'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23111
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: bU648C5GxPXVu_oMOOsxvr7Clmiy1M2m3mwzN93a8X8
+      short-id: abcd26
+  - name: '[Korea] 韩国中转3'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23011
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7ux4g3_EIDiPvmy08S-wnng5odIAJ2_oY2FoFrM18mg
+      short-id: abcd27
+  - name: '[Korea] 韩国中转4'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23112
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L2JMTkei78604EogLKX06ZI75skyMjopXNmvODIf7EA
+      short-id: abcd28
+  - name: '[Singapore] 新加坡中转1'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23012
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 2XN10XHJEWWdtrmmfagdx0h4jANx7wXtMJxEq3pqUgc
+      short-id: abcd29
+  - name: '[Singapore] 新加坡中转2'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23113
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _sT-rfHrZ-bLdGFD8VNYeBDtc7jwlcy5K8xt3b__oFs
+      short-id: abcd30
+  - name: '[Singapore] 新加坡中转3'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23021
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ukvA5VyYzygnSfcSqdwMjYWLz4vVenyjQ7PA1sodbwc
+      short-id: ab33cdef
+  - name: '[Singapore] 新加坡中转4'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23122
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 9Fgt3X9YlN-kbg4PUscrBEHlvPqNxGoc9trhfPXTGx4
+      short-id: ab44cdef
+  - name: '[Singapore] 新加坡中转5'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23022
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: UWLg7Xp3P6g3ez0MlnOD_cExg_xpXw076vl9kCZpyTc
+      short-id: ab55cdef
+  - name: '[Singapore] 新加坡中转6'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23123
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: IqUY-tVYrAnNbTzlczPt0tAmU8p9BWjXAsu06Z2R93E
+      short-id: ab66cdef
+  - name: '[Singapore] 新加坡中转7'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23023
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: uSZYHrg7gO9F9T1NbpA8bHg9SJGwa3biRRDXqYFpVhs
+      short-id: ab77cdef
+  - name: '[Singapore] 新加坡中转8'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23124
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: OYJCZQBJNxDok9xw4NI0iwEB84id24d9f9mohxbC9wc
+      short-id: ab88cdef
+  - name: '[Singapore] 新加坡中转9'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23024
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ShU3oR-0emKSHLKz11r9Ida73B5UeELpHqRe3KQvtk4
+      short-id: ab99cdef
+  - name: '[Singapore] 新加坡中转10'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23125
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: aPXuoQOFV0_MCU7V9eRwNgaQt9EOmNlVtFe-vyAdugQ
+      short-id: ab10cdef
+  - name: '[China] 中国澳门'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: nala.debian13.com
+    udp: true
+  - name: '[China] 中国澳门中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23030
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: eNoOFuDdhgcI3JpoiqOLap7sgeaDpkz5LP1DgWndK00
+      short-id: abcd04
+  - name: '[Malaysia] 马来西亚'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: equivs.debian13.com
+    udp: true
+  - name: '[Malaysia] 马来西亚中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23129
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wJOZwavd8W3C3meIVeLXmi-oJKbA1nTmqrcO-y766Aw
+      short-id: abcd31
+  - name: '[Malaysia] 马来西亚2'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: stow.debian13.com
+    udp: true
+  - name: '[Malaysia] 马来西亚中转2'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23118
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: GV5p_n_oicaS54l8HKHc6AMN5jPedrn4kMmHriGbGVI
+      short-id: fe77f0
+  - name: '[Thailand] 泰国'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: fakeroot.debian13.com
+    udp: true
+  - name: '[Thailand] 泰国直连'
+    type: anytls
+    server: 38.244.151.239
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: uscan.debian13.com
+    udp: true
+  - name: '[Thailand] 泰国中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23031
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ihzgLpiD2T32hOT9NSFB-uJ_kVJ6Isk5DroUhYEXBGM
+      short-id: abcd32
+  - name: '[Myanmar] 缅甸'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: alien.debian13.com
+    udp: true
+  - name: '[Myanmar] 缅甸中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23115
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: LCHdNaxAB9OPmyBdmaYeeyBL79Ur9agnFPluBhHIWQM
+      short-id: 3d8c2a
+  - name: '[Indonesia] 印尼'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: checkinstall.debian13.com
+    udp: true
+  - name: '[Indonesia] 印尼中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23130
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: cPHKrH6nnAJrQ4M0raB5yqAWeKyor1azrAbgXZebOgI
+      short-id: abcd33
+  - name: '[Cambodia] 柬埔寨'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: gdebi.debian13.com
+    udp: true
+  - name: '[Cambodia] 柬埔寨中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23119
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Uwg1GcJ_DV8y1NimsaPxrAhlso589RmuizKL6SDo40w
+      short-id: 81a09c
+  - name: '[Philippines] 菲律宾'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dpatch.debian13.com
+    udp: true
+  - name: '[Philippines] 菲律宾中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23019
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: E0XShPeX-9NgzEOaYJcE1M_v2bqLTNEufh1DkQFZOkI
+      short-id: 0bd979
+  - name: '[Vietnam] 越南'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cdbs.debian13.com
+    udp: true
+  - name: '[Vietnam] 越南中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23145
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: nYJ4GwGW8OGbpGfR82rFQdNIGgcsO7sFL3m2sifQzUM
+      short-id: abcd64
+  - name: '[India] 印度'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: sponsors.debian13.com
+    udp: true
+  - name: '[India] 印度中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23047
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: I56wUPAkL5g8X2UWCWuW9Oo5Qw5b7XmtJWrA2JAabXc
+      short-id: abcd65
+  - name: '[Nepal] 尼泊尔'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: querybts.debian13.com
+    udp: true
+  - name: '[Nepal] 尼泊尔中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23015
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: RSKOqTWrLy5jrnXr-BN0FRytlEmUDJLne9YsYf3T8GY
+      short-id: c3ce07
+  - name: '[Bangladesh] 孟加拉国'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: needrestart.debian13.com
+    udp: true
+  - name: '[Bangladesh] 孟加拉国中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23016
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: F-K9KefXC8UQXsm3ouqbWynusRJf8J01Alq1pIQOGWA
+      short-id: c5ddd6
+  - name: '[Pakistan] 巴基斯坦'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: debsums.debian13.com
+    udp: true
+  - name: '[Pakistan] 巴基斯坦中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23134
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 9K8p0__djubh5J0J0LlA5NRC5fLzz2Sd_nXezpllGQ8
+      short-id: abcd42
+  - name: '[Australia] 澳大利亚'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cruft.debian13.com
+    udp: true
+  - name: '[Australia] 澳大利亚中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23032
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: t5zygaBmtcXgWjyjRB5NX1b30-cb-McauSpscFfMOQM
+      short-id: abcd34
+  - name: '[Canada] 加拿大'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: localepurge.debian13.com
+    udp: true
+  - name: '[Canada] 加拿大中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23131
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: dIV9obilTh7BM1NOWw6NfmTe_4_gv0ZNwikm6ftrKVE
+      short-id: abcd35
+  - name: '[UAE] 迪拜'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: deborphan.debian13.com
+    udp: true
+  - name: '[UAE] 迪拜中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23035
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: VEFoTbYbqAygxhCvWJVOOhwqJuSqi3AcBzJSGZOFY3Y
+      short-id: abcd41
+  - name: '[Saudi Arabia] 沙特阿拉伯'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: dinstall.debian13.com
+    udp: true
+  - name: '[Saudi Arabia] 沙特阿拉伯中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23046
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 5fBKD57s28OkIFDnFbradvRh4IthMK5kL-9dOVYoSkI
+      short-id: abcd63
+  - name: '[Israel] 以色列'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: metasnap.debian13.com
+    udp: true
+  - name: '[Israel] 以色列中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23146
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3BzAg9OmfUNBOk1Qf0Gbbbj3QtQfjf3_R8K-XuAB6Ug
+      short-id: abcd66
+  - name: '[Iraq] 伊拉克'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: anonscm.debian13.com
+    udp: true
+  - name: '[Iraq] 伊拉克中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23116
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: JPLnZxenTaL7n5NsVYhJGkXrE3pGDt_ltK2oBR5mXmk
+      short-id: 599017
+  - name: '[Bahrain] 巴林'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: nmu.debian13.com
+    udp: true
+  - name: '[Bahrain] 巴林中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23117
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: FxZr7gB4R_PpXjAVGtCHUDsGQJD4dTLRS6QLEXT0hD0
+      short-id: 965161
+  - name: '[Oman] 阿曼'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: transition.debian13.com
+    udp: true
+  - name: '[Oman] 阿曼中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23017
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SrjpUY_7vkbpUKIqo1tbNPg-XfOAUvPfSplzOd4b6R8
+      short-id: 99917a
+  - name: '[Qatar] 卡塔尔'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: excuses.debian13.com
+    udp: true
+  - name: '[Qatar] 卡塔尔中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23018
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kM0ZFmVzyBW3PfonVHm3zxt0HjJ6fxKsaoLcPk5VCgQ
+      short-id: e8d345
+  - name: '[Russia] 俄罗斯'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: migration.debian13.com
+    udp: true
+  - name: '[Russia] 俄罗斯中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23014
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: fXdY-kPvnpt-04S7TAv1J1zTj8UgrSh6p6tegRBWkDw
+      short-id: 8a0b30
+  - name: '[France] 法国'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: rebuild.debian13.com
+    udp: true
+  - name: '[France] 法国中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23033
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: pRD6dwA0FV9kHj8Pa7I1E39telgAKrtjvgRxTzSifUc
+      short-id: abcd36
+  - name: '[United Kingdom] 英国'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: wannabuild.debian13.com
+    udp: true
+  - name: '[United Kingdom] 英国中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23132
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ISifKccs4YAkhbj5EyPc86BGa9qw0dAZyNWqJt0oMlQ
+      short-id: abcd37
+  - name: '[Germany] 德国'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: changelog.debian13.com
+    udp: true
+  - name: '[Germany] 德国中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23034
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: cBaT6-qSVvsxYCfhMTi0CTNkl02nIWU7DrNAD8Oiuxk
+      short-id: abcd38
+  - name: '[Spain] 西班牙'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: copyright.debian13.com
+    udp: true
+  - name: '[Spain] 西班牙中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23036
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EiPJ77NulZ3fW_-N-vMqs83vNmCrZX81mRdURiRx4Hc
+      short-id: abcd43
+  - name: '[Italy] 意大利'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: control.debian13.com
+    udp: true
+  - name: '[Italy] 意大利中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23135
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: eGajMBcKheENb7jvXThrem73xruoQyBJD3H37sd42TU
+      short-id: abcd44
+  - name: '[Netherlands] 荷兰'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: watch.debian13.com
+    udp: true
+  - name: '[Netherlands] 荷兰中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23037
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Dj0lvosNqSfSgB6iFrBYiaD3bg6_uqfmzKYji8GTB3k
+      short-id: abcd45
+  - name: '[Norway] 挪威'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: upstream.debian13.com
+    udp: true
+  - name: '[Norway] 挪威中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23136
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8NEi-X2BrWxJLY5iwSFWtUe6iCYYQ81PGWw807o_82s
+      short-id: abcd46
+  - name: '[Switzerland] 瑞士'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: patches.debian13.com
+    udp: true
+  - name: '[Switzerland] 瑞士中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23038
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: WLLOVwEe7bgC_onnqTSnTK9NLOmNoo8GbTZGcn7pyFo
+      short-id: abcd47
+  - name: '[Poland] 波兰'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: maintainer.debian13.com
+    udp: true
+  - name: '[Poland] 波兰中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23137
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: NbRBWytc_NJeNVD_K5caBEfSHH0MR_xkebxbsnE2LRM
+      short-id: abcd48
+  - name: '[Finland] 芬兰'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: uploaders.debian13.com
+    udp: true
+  - name: '[Finland] 芬兰中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23039
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _vv8Db9p2eLvRGhpBxMecfLY7Xe5r2D7QzkV5KehEXg
+      short-id: abcd49
+  - name: '[Ukraine] 乌克兰'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: homepage.debian13.com
+    udp: true
+  - name: '[Ukraine] 乌克兰中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23138
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: uDlpUK7PoFdpRmtPhy0WRT5TwcYs-Mv5NhNQV34n4A0
+      short-id: abcd50
+  - name: '[Kazakhstan] 哈萨克斯坦'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: depends.debian13.com
+    udp: true
+  - name: '[Kazakhstan] 哈萨克斯坦中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23040
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: cacTn2WVKrdcHfWe0Rvdh4sC0zdRuPs5z_FOIXH9NT4
+      short-id: abcd51
+  - name: '[Romania] 罗马尼亚'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: recommends.debian13.com
+    udp: true
+  - name: '[Romania] 罗马尼亚中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23139
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: VZKF_cmFh_NfzPF2pLcCreYeLnArWzjDqCAOnd439wM
+      short-id: abcd52
+  - name: '[Serbia] 塞尔维亚'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: suggests.debian13.com
+    udp: true
+  - name: '[Serbia] 塞尔维亚中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23041
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qdBBm6rUHyAW_4iAgWzI7jlbl7Ykm_n4xb26Rnnj7nU
+      short-id: abcd53
+  - name: '[Sweden] 瑞典'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: provides.debian13.com
+    udp: true
+  - name: '[Sweden] 瑞典中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23140
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: BeA-056wU0xm1DlmvvA9lJU9ikwNUu7Bt3w-VuIM6zI
+      short-id: abcd54
+  - name: '[Belgium] 比利时'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: breaks.debian13.com
+    udp: true
+  - name: '[Belgium] 比利时中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23042
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: KA9TdiPIsphADGaiPiyv8lWXvoBthRrwRVXbvmOIEGw
+      short-id: abcd55
+  - name: '[Czech Republic] 捷克共和国'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: replaces.debian13.com
+    udp: true
+  - name: '[Czech Republic] 捷克共和国中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23141
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: rdLAJyLOkLtkRiQEW4w-s8fu647RGooPb9fTaYjsQ2I
+      short-id: abcd56
+  - name: '[Denmark] 丹麦'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: predepends.debian13.com
+    udp: true
+  - name: '[Denmark] 丹麦中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23043
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: OdPtJyRTGkiENT31TfAh2Y0poeMZ7bO-gW3btvEFtQg
+      short-id: abcd57
+  - name: '[Estonia] 爱沙尼亚'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: enhances.debian13.com
+    udp: true
+  - name: '[Estonia] 爱沙尼亚中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23142
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: sxoXXFXN2xBW5rBgmH9FAcXTKBjA7ZL9tC8EkJv_Vzk
+      short-id: abcd58
+  - name: '[Hungary] 匈牙利'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: essential.debian13.com
+    udp: true
+  - name: '[Hungary] 匈牙利中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23044
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: YmPrrgodIOQT7lQV4ESeChuj4FoWWop5AWd748VVxhk
+      short-id: abcd59
+  - name: '[Iceland] 冰岛'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: priority.debian13.com
+    udp: true
+  - name: '[Iceland] 冰岛中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23143
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: vk5hTCzHh9aqPjH___lCnkLeB9CNeUiMkGSAe_bORCQ
+      short-id: abcd60
+  - name: '[Turkey] 土耳其'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: section.debian13.com
+    udp: true
+  - name: '[Turkey] 土耳其中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23049
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: jb-OXvbel-1SLwFymHfZvTQV0HhZwO0_n5LMo-FwTyU
+      short-id: abcd40
+  - name: '[Bulgaria] 保加利亚'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: conffiles.debian13.com
+    udp: true
+  - name: '[Bulgaria] 保加利亚中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23013
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: bGz3iCZeP_BsU6ljD64VyVEexYLK0XXs3LsCQliLyG8
+      short-id: e85c5a
+  - name: '[Greece] 希腊'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: virtual.debian13.com
+    udp: true
+  - name: '[Greece] 希腊中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23114
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1IvWvGWBuGstmnZKGA7JMIOfd9Ctc6FVutqtCIqW1zk
+      short-id: 2dd9bc
+  - name: '[Austria] 奥地利'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: metapackage.debian13.com
+    udp: true
+  - name: '[Austria] 奥地利中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23029
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: sNFvA0sE28qqlVqCg664M0IGtZK1q-MeNGMaBmR5fQ8
+      short-id: c1d2e3
+  - name: '[South Africa] 南非'
+    type: anytls
+    server: 0717sgsg2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: symbols.debian13.com
+    udp: true
+  - name: '[South Africa] 南非中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23147
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: -Z6mItiYwdjQZE6yqhWEYmUyAZp8z9YOCvy9rvFuHDY
+      short-id: abcd68
+  - name: '[Egypt] 埃及'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: shlibs.debian13.com
+    udp: true
+  - name: '[Egypt] 埃及中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23149
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZSj6SIMdseC0q4pMHIG1l4Y-DTfQriJCknObVgQ_j24
+      short-id: bd7dc1
+  - name: '[Brazil] 巴西'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: postinst.debian13.com
+    udp: true
+  - name: '[Brazil] 巴西中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23133
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3-D8gF1vYGEf8cavgv3lqDeeQzzmA15x5T_smpk1hnY
+      short-id: abcd39
+  - name: '[Mexico] 墨西哥'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: preinst.debian13.com
+    udp: true
+  - name: '[Mexico] 墨西哥中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23045
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: GKqQX4w4-fAmppCLGbap5HUHqHhmiR0aeMvnRhBGk2c
+      short-id: abcd61
+  - name: '[Argentina] 阿根廷'
+    type: anytls
+    server: 0717sgsg3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: postrm.debian13.com
+    udp: true
+  - name: '[Argentina] 阿根廷中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23144
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: V1qc1WzQs1Cn2ErUsT4G9sk9ss0D28bew4W1mPyYgl8
+      short-id: abcd62
+  - name: '[Chile] 智利'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: prerm.debian13.com
+    udp: true
+  - name: '[Chile] 智利中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23048
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wYtPguJdXvnExHNjRkro66v1VgIxMI_cDxyKcvy_NkM
+      short-id: abcd67
+  - name: '[Peru] 秘鲁'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: substvars.debian13.com
+    udp: true
+  - name: '[Peru] 秘鲁中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23120
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: LLh1xcZMVBFDD0BSP6jQTxB6LT_dZNCG6BIWztxSAwg
+      short-id: 8c5138
+  - name: '[Colombia] 哥伦比亚'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: releng.debian13.com
+    udp: true
+  - name: '[Colombia] 哥伦比亚中转'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23020
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 51E3ctAZaKBeZPs-I8dhhkpzSC0u86pAr07x_2YzGGk
+      short-id: 73e5eb
+  - name: '[Ecuador] 厄瓜多尔'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: cdbuilder.debian13.com
+    udp: true
+  - name: '[Ecuador] 厄瓜多尔中转'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23121
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wt7e-g7lR4Tjv6LRoYy-rTuc_WwjRjS2r4NtuQXg4S8
+      short-id: 670615
+  - name: '[United States] 9洛杉矶1'
+    type: anytls
+    server: 0717jpjp.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: netboot.debian13.com
+    udp: true
+  - name: '[United States] 10洛杉矶2'
+    type: anytls
+    server: 0717sg4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: preseed.debian13.com
+    udp: true
+  - name: '[United States] 11西雅图'
+    type: anytls
+    server: 0717hkhk2.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: businesscard.debian13.com
+    udp: true
+  - name: '[United States] 12圣荷西'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: alpha.debian13.com
+    udp: true
+  - name: '[United States] 13纽约'
+    type: anytls
+    server: 0717jpjp4.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: powerpc.debian13.com
+    udp: true
+  - name: '[United States] 14芝加哥'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: sparc.debian13.com
+    udp: true
+  - name: '[United States] 15达拉斯'
+    type: anytls
+    server: 0717sg5.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: hurd.debian13.com
+    udp: true
+  - name: '[United States] 16亚特兰大'
+    type: anytls
+    server: 0717hkhk3.debian13.com
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: kfreebsd.debian13.com
+    udp: true
+  - name: '[United States] 中转9洛杉矶1'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23050
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: GkpGlGmWfCoo-B730Hl2B3DTKYpF07K364wQcPWdyxE
+      short-id: abcd73
+  - name: '[United States] 中转10洛杉矶2'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23128
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: PC-6VWFAD70WACGK7N6XALZUeHBWsBHEYeyvPpLUzUo
+      short-id: abcd74
+  - name: '[United States] 中转11西雅图'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23025
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: OEsrynjg_iNMstHzXUx2I1XeoxzzinR0SW_adA_ceTY
+      short-id: abcd75
+  - name: '[United States] 中转12圣荷西'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23026
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: gKJ_kXux7H5hZ01TK5g0B4rmk6sUwUb1KeiZgmExcSs
+      short-id: abcd76
+  - name: '[United States] 中转13纽约'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23027
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: QbxHjvzIrFYqgNANLzORVu5WQCmuF8DYPccQG5zWwRo
+      short-id: abcd77
+  - name: '[United States] 中转14芝加哥'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23126
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: o0ibxM0N1QmMfmzRed1FtZNObraMsFBdaFdFBiB8JiI
+      short-id: abcd78
+  - name: '[United States] 中转15达拉斯'
+    type: vless
+    server: 0717hkzz.debian13.com
+    port: 23127
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EsMtvB95FwCFKgnlqrJeguFrg_7BDxqhM2uKvKmf_kk
+      short-id: abcd79
+  - name: '[United States] 中转16亚特兰大'
+    type: vless
+    server: 0717jpzz.debian13.com
+    port: 23028
+    uuid: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    flow: xtls-rprx-vision
+    sni: www.cctv.com
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: H0uMi9mC0PLWYJlX7_E3lH2yAudTWjfJiptU8kFpmTw
+      short-id: a1b2c3d5
+  - name: '[测试] AnyTLS 落地'
+    type: anytls
+    server: 51.81.182.232
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: test.debian13.com
+    udp: true
+  - name: '客服邮箱：service@clashgit.com'
+    type: anytls
+    server: 51.81.182.232
+    port: 443
+    password: 16a8c2ba-1457-452e-bda8-aff89f47f2d1
+    sni: test.debian13.com
+    udp: true
+
+proxy-groups:
+  - name: '🔰 选择节点'
+    type: select
+    proxies:
+      - '[Japan] 日本2 [超高速]'
+      - '[Singapore] 新加坡1 [超高速]'
+      - '[Japan] 日本1 [超高速]'
+      - '[Korea] 韩国 [超高速]'
+      - '[TW] 台湾 [超高速]'
+      - '[Hong Kong] 香港 [超高速]'
+      - '[Singapore] 新加坡2-极速 [推荐]'
+      - '[Singapore] 新加坡3-极速 [推荐]'
+      - '[Singapore] 新加坡4-极速 [推荐]'
+      - '[Singapore] 新加坡5-极速 [推荐]'
+      - '[Singapore] 新加坡6-极速 [推荐]'
+      - '[Singapore] 新加坡7-极速 [推荐]'
+      - '[Singapore] 新加坡8-极速 [推荐]'
+      - '[Singapore] 新加坡9-极速 [推荐]'
+      - '[Singapore] 新加坡10-极速 [推荐]'
+      - '[Japan] 日本1-极速'
+      - '[Japan] 日本2-极速'
+      - '[Japan] 日本3-极速'
+      - '[Japan] 日本4-极速'
+      - '[Japan] 日本5-极速'
+      - '[United States] 美国1-极速'
+      - '[United States] 美国2-极速'
+      - '[United States] 美国3-极速'
+      - '[United States] 美国4-极速'
+      - '[United States] 美国5-极速'
+      - '[United States] 美国6-极速'
+      - '[United States] 美国7-极速'
+      - '[TW] 台湾1-极速'
+      - '[TW] 台湾2-极速'
+      - '[TW] 台湾3-极速'
+      - '[TW] 台湾4-极速'
+      - '[TW] 台湾5-极速'
+      - '[Hong Kong] 香港1-极速'
+      - '[Hong Kong] 香港2-极速'
+      - '[Hong Kong] 香港3-极速'
+      - '[Hong Kong] 香港4-极速'
+      - '[Hong Kong] 香港5-极速'
+      - '[Japan] 日本直连1专线'
+      - '[Japan] 日本直连2专线'
+      - '[Japan] 日本直连3专线'
+      - '[Japan] 日本直连4专线'
+      - '[Japan] 日本直连5专线'
+      - '[Japan] 日本直连6专线'
+      - '[Japan] 日本直连7专线'
+      - '[Japan] 日本直连8专线'
+      - '[Japan] 日本直连9专线'
+      - '[Japan] 日本直连10'
+      - '[Japan] 日本直连11'
+      - '[Japan] 日本直连12'
+      - '[Japan] 日本直连13'
+      - '[Japan] 日本中转1'
+      - '[Japan] 日本中转2'
+      - '[Japan] 日本中转3'
+      - '[Japan] 日本中转4'
+      - '[Japan] 日本中转5'
+      - '[United States] 美国直连1专线'
+      - '[United States] 美国直连2专线'
+      - '[United States] 美国直连3'
+      - '[United States] 美国直连4'
+      - '[United States] 美国直连5'
+      - '[United States] 美国直连6'
+      - '[United States] 美国直连7'
+      - '[United States] 美国直连8'
+      - '[United States] 美国中转1'
+      - '[United States] 美国中转2'
+      - '[United States] 美国中转3'
+      - '[TW] 台湾直连1'
+      - '[TW] 台湾直连2'
+      - '[TW] 台湾直连3'
+      - '[TW] 台湾直连4'
+      - '[TW] 台湾直连5'
+      - '[TW] 台湾中转1'
+      - '[TW] 台湾中转2'
+      - '[TW] 台湾中转3'
+      - '[TW] 台湾中转4'
+      - '[TW] 台湾中转5'
+      - '[Hong Kong] 香港直连1'
+      - '[Hong Kong] 香港直连2'
+      - '[Hong Kong] 香港直连3'
+      - '[Hong Kong] 香港直连4'
+      - '[Hong Kong] 香港直连5'
+      - '[Hong Kong] 香港中转1'
+      - '[Hong Kong] 香港中转2'
+      - '[Hong Kong] 香港中转3'
+      - '[Hong Kong] 香港中转4'
+      - '[Hong Kong] 香港中转5'
+      - '[Korea] 韩国1'
+      - '[Korea] 韩国2'
+      - '[Korea] 韩国3'
+      - '[Korea] 韩国4'
+      - '[Korea] 韩国中转1'
+      - '[Korea] 韩国中转2'
+      - '[Korea] 韩国中转3'
+      - '[Korea] 韩国中转4'
+      - '[Singapore] 新加坡中转1'
+      - '[Singapore] 新加坡中转2'
+      - '[Singapore] 新加坡中转3'
+      - '[Singapore] 新加坡中转4'
+      - '[Singapore] 新加坡中转5'
+      - '[Singapore] 新加坡中转6'
+      - '[Singapore] 新加坡中转7'
+      - '[Singapore] 新加坡中转8'
+      - '[Singapore] 新加坡中转9'
+      - '[Singapore] 新加坡中转10'
+      - '[China] 中国澳门'
+      - '[China] 中国澳门中转'
+      - '[Malaysia] 马来西亚'
+      - '[Malaysia] 马来西亚中转'
+      - '[Malaysia] 马来西亚2'
+      - '[Malaysia] 马来西亚中转2'
+      - '[Thailand] 泰国'
+      - '[Thailand] 泰国直连'
+      - '[Thailand] 泰国中转'
+      - '[Myanmar] 缅甸'
+      - '[Myanmar] 缅甸中转'
+      - '[Indonesia] 印尼'
+      - '[Indonesia] 印尼中转'
+      - '[Cambodia] 柬埔寨'
+      - '[Cambodia] 柬埔寨中转'
+      - '[Philippines] 菲律宾'
+      - '[Philippines] 菲律宾中转'
+      - '[Vietnam] 越南'
+      - '[Vietnam] 越南中转'
+      - '[India] 印度'
+      - '[India] 印度中转'
+      - '[Nepal] 尼泊尔'
+      - '[Nepal] 尼泊尔中转'
+      - '[Bangladesh] 孟加拉国'
+      - '[Bangladesh] 孟加拉国中转'
+      - '[Pakistan] 巴基斯坦'
+      - '[Pakistan] 巴基斯坦中转'
+      - '[Australia] 澳大利亚'
+      - '[Australia] 澳大利亚中转'
+      - '[Canada] 加拿大'
+      - '[Canada] 加拿大中转'
+      - '[UAE] 迪拜'
+      - '[UAE] 迪拜中转'
+      - '[Saudi Arabia] 沙特阿拉伯'
+      - '[Saudi Arabia] 沙特阿拉伯中转'
+      - '[Israel] 以色列'
+      - '[Israel] 以色列中转'
+      - '[Iraq] 伊拉克'
+      - '[Iraq] 伊拉克中转'
+      - '[Bahrain] 巴林'
+      - '[Bahrain] 巴林中转'
+      - '[Oman] 阿曼'
+      - '[Oman] 阿曼中转'
+      - '[Qatar] 卡塔尔'
+      - '[Qatar] 卡塔尔中转'
+      - '[Russia] 俄罗斯'
+      - '[Russia] 俄罗斯中转'
+      - '[France] 法国'
+      - '[France] 法国中转'
+      - '[United Kingdom] 英国'
+      - '[United Kingdom] 英国中转'
+      - '[Germany] 德国'
+      - '[Germany] 德国中转'
+      - '[Spain] 西班牙'
+      - '[Spain] 西班牙中转'
+      - '[Italy] 意大利'
+      - '[Italy] 意大利中转'
+      - '[Netherlands] 荷兰'
+      - '[Netherlands] 荷兰中转'
+      - '[Norway] 挪威'
+      - '[Norway] 挪威中转'
+      - '[Switzerland] 瑞士'
+      - '[Switzerland] 瑞士中转'
+      - '[Poland] 波兰'
+      - '[Poland] 波兰中转'
+      - '[Finland] 芬兰'
+      - '[Finland] 芬兰中转'
+      - '[Ukraine] 乌克兰'
+      - '[Ukraine] 乌克兰中转'
+      - '[Kazakhstan] 哈萨克斯坦'
+      - '[Kazakhstan] 哈萨克斯坦中转'
+      - '[Romania] 罗马尼亚'
+      - '[Romania] 罗马尼亚中转'
+      - '[Serbia] 塞尔维亚'
+      - '[Serbia] 塞尔维亚中转'
+      - '[Sweden] 瑞典'
+      - '[Sweden] 瑞典中转'
+      - '[Belgium] 比利时'
+      - '[Belgium] 比利时中转'
+      - '[Czech Republic] 捷克共和国'
+      - '[Czech Republic] 捷克共和国中转'
+      - '[Denmark] 丹麦'
+      - '[Denmark] 丹麦中转'
+      - '[Estonia] 爱沙尼亚'
+      - '[Estonia] 爱沙尼亚中转'
+      - '[Hungary] 匈牙利'
+      - '[Hungary] 匈牙利中转'
+      - '[Iceland] 冰岛'
+      - '[Iceland] 冰岛中转'
+      - '[Turkey] 土耳其'
+      - '[Turkey] 土耳其中转'
+      - '[Bulgaria] 保加利亚'
+      - '[Bulgaria] 保加利亚中转'
+      - '[Greece] 希腊'
+      - '[Greece] 希腊中转'
+      - '[Austria] 奥地利'
+      - '[Austria] 奥地利中转'
+      - '[South Africa] 南非'
+      - '[South Africa] 南非中转'
+      - '[Egypt] 埃及'
+      - '[Egypt] 埃及中转'
+      - '[Brazil] 巴西'
+      - '[Brazil] 巴西中转'
+      - '[Mexico] 墨西哥'
+      - '[Mexico] 墨西哥中转'
+      - '[Argentina] 阿根廷'
+      - '[Argentina] 阿根廷中转'
+      - '[Chile] 智利'
+      - '[Chile] 智利中转'
+      - '[Peru] 秘鲁'
+      - '[Peru] 秘鲁中转'
+      - '[Colombia] 哥伦比亚'
+      - '[Colombia] 哥伦比亚中转'
+      - '[Ecuador] 厄瓜多尔'
+      - '[Ecuador] 厄瓜多尔中转'
+      - '[United States] 9洛杉矶1'
+      - '[United States] 10洛杉矶2'
+      - '[United States] 11西雅图'
+      - '[United States] 12圣荷西'
+      - '[United States] 13纽约'
+      - '[United States] 14芝加哥'
+      - '[United States] 15达拉斯'
+      - '[United States] 16亚特兰大'
+      - '[United States] 中转9洛杉矶1'
+      - '[United States] 中转10洛杉矶2'
+      - '[United States] 中转11西雅图'
+      - '[United States] 中转12圣荷西'
+      - '[United States] 中转13纽约'
+      - '[United States] 中转14芝加哥'
+      - '[United States] 中转15达拉斯'
+      - '[United States] 中转16亚特兰大'
+      - '[测试] AnyTLS 落地'
+      - 客服邮箱：service@clashgit.com
+      - DIRECT
+  - name: '🐟 漏网之鱼'
+    type: select
+    proxies:
+      - 🔰 选择节点
+      - DIRECT
+
+rules:
+- MATCH,🐟 漏网之鱼
